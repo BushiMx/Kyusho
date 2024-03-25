@@ -1,0 +1,16 @@
+/* .socials {
+  display: flex;
+  flex-direction: column;
+} */
+
+.socials_subtitulo {
+  color: var(--color-verde);
+}
+
+.socials_icons {
+  display: flex;
+  justify-content: center;
+}
+.social_icon {
+  padding: 0 1rem;
+}
