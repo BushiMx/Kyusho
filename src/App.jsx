@@ -4,10 +4,11 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Menu from "./components/menu/menu";
-import { Inicio } from "./components/inicio/inicio";
-import { Redes } from "./components/social/social";
-import { Kyusho } from "./components/kyusho/kyusho";
-import Nosotros from "./components/nosotros/nosotros";
+// import { Inicio } from "./components/inicio/inicio";
+// import { Redes } from "./components/social/social";
+// import { Kyusho } from "./components/kyusho/kyusho";
+// import Nosotros from "./components/nosotros/nosotros";
+import Instructores from "./components/instructores/instructores";
 
 function App() {
   // const [count, setCount] = useState(0);
@@ -15,11 +16,11 @@ function App() {
   return (
     <>
       <Menu />
-      <Inicio />
+      {/* <Inicio />
       <Kyusho />
       <Nosotros />
-      <Redes />
-
+      <Redes /> */}
+      <Instructores />
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
