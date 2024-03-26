@@ -2,7 +2,27 @@
   padding-top: 2rem;
 }
 
+.accordion-item {
+  border: none;
+}
+
 .accordion-body {
   padding-top: 0.5rem;
   padding-bottom: 0;
+}
+
+/* .card:hover { */
+/* background: linear-gradient(to right, #882b2b, #172a87); */
+/* backdrop-filter: blur(16px) saturate(180%); */
+/* -webkit-backdrop-filter: blur(16px) saturate(180%); */
+/* background-color: rgba(139, 19, 19, 0.7); */
+/* border-radius: 12px; */
+/* border: 1px solid rgba(209, 213, 219, 0.3); */
+/* border: 3px solid var(--color-azul); */
+/* } */
+
+.accordion-item:hover img {
+  /* border: 3px solid var(--color-azul); */
+  /* background-color: var(--color-rojo); */
+  filter: drop-shadow(0 0 10px rgba(141, 4, 4, 0.9));
 }
