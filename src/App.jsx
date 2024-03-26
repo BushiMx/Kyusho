@@ -7,6 +7,7 @@ import Menu from "./components/menu/menu";
 import { Inicio } from "./components/inicio/inicio";
 import { Redes } from "./components/social/social";
 import { Kyusho } from "./components/kyusho/kyusho";
+import Nosotros from "./components/nosotros/nosotros";
 
 function App() {
   // const [count, setCount] = useState(0);
@@ -14,8 +15,9 @@ function App() {
   return (
     <>
       <Menu />
+      <Inicio />
       <Kyusho />
-      {/* <Inicio /> */}
+      <Nosotros />
       <Redes />
 
       {/* <div>

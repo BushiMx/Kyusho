@@ -4,7 +4,7 @@ import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import ListGroup from "react-bootstrap/ListGroup";
-import foto from "../../assets/david_accion02.webp";
+import foto from "../../assets/fotos/david_accion02.webp";
 import listStyleImage from "../../assets/check-mark.webp";
 import "../inicio/inicio.css";
 

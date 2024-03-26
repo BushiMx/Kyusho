@@ -49,11 +49,11 @@
   margin: auto;
 }
 
-img:hover {
+/* img:hover {
   opacity: 0.7;
   transform: scale(0.9);
   transition: var(--transition);
-}
+} */
 
 .features {
   width: 40%;

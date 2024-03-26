@@ -1,0 +1,13 @@
+.carousel {
+  padding-bottom: 1rem;
+}
+
+.carousel-inner {
+  background-color: var(--color-gris);
+}
+
+.carousel-caption {
+  border-radius: 30px;
+  background-color: var(--color-gris);
+  padding: 0.5rem 0;
+}
