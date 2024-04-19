@@ -13,6 +13,7 @@
 
 .card-title,
 .card-header {
+  background-color: var(--color-white);
   color: var(--color-rojo);
   text-shadow: 3px 3px 5px gray;
 
@@ -23,7 +24,7 @@
 
 .card-body {
   & .card-text {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 }
 
@@ -34,13 +35,16 @@
 
 .col {
   padding-top: 1rem;
+  margin: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .card {
   border: none;
   padding: 1rem;
-  /* height: 33rem; */
 }
+
 /* .titulo_img img { */
 .card-img-top {
   width: 75%;
@@ -64,4 +68,13 @@
   list-style-image: url(../../assets/check.webp);
   text-align: left;
   padding: 0.5rem;
+}
+
+.video_player {
+  width: 480px;
+  height: 270px;
+  border: 5px solid white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
 }

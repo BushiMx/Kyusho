@@ -1,5 +1,28 @@
-.container {
+/* .container {
   padding-top: 2rem;
+} */
+
+.card {
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 1rem 1rem;
+}
+
+.instructor_Pic {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 200px;
+  border: 5px solid var(--color-amarillo);
+  mask-image: linear-gradient(white 70%, black);
+}
+
+.instructor_Pic:hover {
+  filter: drop-shadow(0 0 10px rgba(141, 4, 4, 0.9));
+}
+
+.accordion-button {
+  color: var(--color-azul);
 }
 
 .accordion-item {

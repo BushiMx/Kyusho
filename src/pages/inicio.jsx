@@ -4,9 +4,10 @@ import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import ListGroup from "react-bootstrap/ListGroup";
-import foto from "../../assets/fotos/david_accion02.webp";
-import listStyleImage from "../../assets/check-mark.webp";
-import "../inicio/inicio.css";
+import foto from "../assets/fotos/david_accion02.webp";
+import listStyleImage from "../assets/check-mark.webp";
+import "../components/inicio/inicio.css";
+import ReactPlayer from "react-player";
 
 const beneficios = [
   "Aprenderás a defenderte de manera práctica y efectiva.",
@@ -29,14 +30,14 @@ const caracteristicas = [
 export const Inicio = () => {
   return (
     <>
-      <Row xs={1} md={2} className="g-4">
+      <Row xs={1} md={2}>
         <Col key={1}>
           <Card>
             <Card.Body>
               <Card.Title>
                 <h1>Kyusho Jutsu</h1>
                 <h2>
-                  Aplicacion de los puntos de presion para la Defensa Personal{" "}
+                  Aplicación de los puntos de presión para la Defensa Personal
                 </h2>
               </Card.Title>
               <Card.Text>
@@ -47,9 +48,17 @@ export const Inicio = () => {
           </Card>
         </Col>
         <Col key={2}>
-          <Card>
-            <Card.Img variant="top" src={foto} />
-          </Card>
+          {/* <Card> */}
+          {/* <Card.Img variant="top" src={foto} /> */}
+          <div className="video_player" id="player">
+            <ReactPlayer
+              url="https://youtu.be/FJ6qekNMY78"
+              playing={true}
+              width="100%"
+              height="100%"
+            />
+          </div>
+          {/* </Card> */}
         </Col>
 
         <Card>
@@ -69,7 +78,7 @@ export const Inicio = () => {
 
         <Card>
           <Card.Header>
-            <h1>Caracteristicas</h1>
+            <h1>Características</h1>
           </Card.Header>
           <ListGroup variant="flush">
             {caracteristicas.map((info, id) => {

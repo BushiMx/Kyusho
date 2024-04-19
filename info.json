@@ -1,0 +1,70 @@
+{
+  "instructores": [
+    {
+      "Nombre": "GM Jim Corn",
+      "Foto": "",
+      "Grado01": "10° Dan Kyusho Jutsu",
+      "Grado02": "9° Dan Ryukyu Kempo",
+      "Descripcion": "Jim Corn es el oficial ejecutivo de Force Options y supervisa las operaciones en el extranjero. El Sr. Corn sirvió como paracaidista del Ejército de los Estados Unidos y como oficial de policía. Además, es uno de los instructores de Kyusho Jitsu de más alto rango en el mundo. Viaja por todo el mundo enseñando el uso práctico de las técnicas de puntos de presión. Ha sido activo en la enseñanza de trabajos de puntos de presión y combativos durante casi cuatro décadas. Ha aparecido en numerosos DVD sobre el tema y es uno de los expertos más conocidos del mundo.",
+      "Video": "https://youtu.be/XNTmwLUmFuA",
+      "Telefono": "",
+      "Direccion": "",
+      "Maps": ""
+    },
+    {
+      "Nombre": "Master Fred Mastison",
+      "Foto": "",
+      "Grado01": "7° Dan Aikijitsu",
+      "Grado02": "5° Dan Kyusho Jutsu",
+      "Descripcion": "El Sr. Mastison es un instructor profesional en los campos de tácticas defensivas, armas de fuego y protección ejecutiva. Es un oficial de policía de reserva y ha estado entrenando en combates en cuartos cerrados durante más de tres décadas. Es reconocido internacionalmente como uno de los mejores combatientes e instructores de armas de fuego en el mundo. También opera una división de protección ejecutiva y brinda servicios en todo el mundo.",
+      "Video": "https://youtu.be/QZJyb9aE6is?si=6pPqM5SdMKXh25t3",
+      "Telefono": "",
+      "Direccion": "Chandler, Arizona",
+      "Maps": ""
+    },
+    {
+      "Nombre": "Renshi David Escobar",
+      "Foto": "",
+      "Grado01": "5° Dan Kyusho Jutsu",
+      "Grado02": "3r Dan Ryukyu Kempo",
+      "Descripcion": "",
+      "Video": "https://youtu.be/qcJsTqR_kxI",
+      "Telefono": "5539771763",
+      "Direccion": "Cd. Del Sol, Queretaro",
+      "Maps": ""
+    },
+    {
+      "Nombre": "Sensei Genaro Watla",
+      "Foto": "",
+      "Grado01": "3r Dan Kyusho Jutsu",
+      "Grado02": "",
+      "Descripcion": "",
+      "Video": "",
+      "Telefono": "",
+      "Direccion": "",
+      "Maps": ""
+    },
+    {
+      "Nombre": "Sensei Yzar Cervantes",
+      "Foto": "",
+      "Grado01": "3r Dan Kyusho Jutsu",
+      "Grado02": "2° Dan Krav Maga",
+      "Descripcion": "",
+      "Video": "",
+      "Telefono": "",
+      "Direccion": "",
+      "Maps": ""
+    },
+    {
+      "Nombre": "Sensei Jonathan Santillan",
+      "Foto": "",
+      "Grado01": "3r Dan Krav Maga",
+      "Grado02": "1r Dan Kyusho Jutsu",
+      "Descripcion": "",
+      "Video": "",
+      "Telefono": "",
+      "Direccion": "",
+      "Maps": ""
+    }
+  ]
+}

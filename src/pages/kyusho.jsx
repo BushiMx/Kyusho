@@ -3,11 +3,11 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import ListGroup from "react-bootstrap/ListGroup";
 import Button from "react-bootstrap/Button";
-import dibujo from "../../assets/dibujo_acupuntura.webp";
-import nervios from "../../assets/nervios01.webp";
-import nervios2 from "../../assets/nervios02.webp";
-import Infografia from "../../assets/infografia.webp";
-import "../kyusho/kyusho.css";
+import dibujo from "../assets/dibujo_acupuntura.webp";
+import nervios from "../assets/nervios01.webp";
+import nervios2 from "../assets/nervios02.webp";
+import Infografia from "../assets/infografia.webp";
+import "../components/kyusho/kyusho.css";
 
 const Estudio = [
   {
@@ -59,7 +59,7 @@ export const Kyusho = () => {
               </Card.Title>
               <Card.Text>
                 El Kyusho-jutsu no es un estilo, es una técnica que se encuentra
-                presente en todas las Artes Marciales Tradicionales, se basa en
+                presente en todas las Artes Marciales tradicionales, se basa en
                 un conocimiento profundo de las reacciones del cuerpo humano a
                 los estímulos de los neurostransmisores corporales; en otras
                 palabras, estudia la forma de atacar los puntos de Acupuntura
@@ -73,12 +73,14 @@ export const Kyusho = () => {
         </Col>
         <Col key={2}>
           <Card>
-            <Card.Img variant="top" src={dibujo} />
+            {/* <Card.Img  variant="top" src={dibujo} /> */}
+            <img className="info_img" src={dibujo} />
           </Card>
         </Col>
 
         <Card>
-          <Card.Img variant="top" src={nervios} />
+          {/* <Card.Img variant="top" src={nervios} /> */}
+          <img className="info_img" src={nervios} />
         </Card>
 
         <Card>
@@ -94,7 +96,8 @@ export const Kyusho = () => {
               en el agresor a través de una respuesta de los nervios eferentes.
             </Card.Text>
           </Card.Body>
-          <Card.Img variant="top" src={nervios2} />
+          {/* <Card.Img variant="top" src={nervios2} /> */}
+          <img className="info_img" src={nervios2} />
         </Card>
       </Row>
 
@@ -105,8 +108,10 @@ export const Kyusho = () => {
             <h1>¿Qué estudia el Kyusho?</h1>
           </Card.Title>
           <Card.Text>
-            El estudio del Kyusho-jutsu actual se divide en los siguientes
-            apartados del Atemi-jutsu 当身術:
+            <h2>
+              El estudio del Kyusho-jutsu actual se divide en los siguientes
+              apartados del Atemi-jutsu 当身術:
+            </h2>
           </Card.Text>
         </Card.Body>
         <ListGroup className="list-group-flush">

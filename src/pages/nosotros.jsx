@@ -1,15 +1,15 @@
 import React from "react";
-import "./nosotros.css";
+import "../components/nosotros/nosotros.css";
 import Card from "react-bootstrap/Card";
 import Carousel from "react-bootstrap/Carousel";
-import foto01 from "../../assets/fotos/foto01.webp";
-import foto02 from "../../assets/fotos/foto02.webp";
-import foto03 from "../../assets/fotos/foto03.webp";
-import foto04 from "../../assets/fotos/foto04.webp";
-import foto05 from "../../assets/fotos/foto05.webp";
-import foto06 from "../../assets/fotos/foto06.webp";
-import foto07 from "../../assets/fotos/foto07.webp";
-import foto08 from "../../assets/fotos/foto08.webp";
+import foto01 from "../assets/fotos/foto01.webp";
+import foto02 from "../assets/fotos/foto02.webp";
+import foto03 from "../assets/fotos/foto03.webp";
+import foto04 from "../assets/fotos/foto04.webp";
+import foto05 from "../assets/fotos/foto05.webp";
+import foto06 from "../assets/fotos/foto06.webp";
+import foto07 from "../assets/fotos/foto07.webp";
+import foto08 from "../assets/fotos/foto08.webp";
 
 const carrusel_fotos = [
   {
@@ -66,7 +66,7 @@ const Nosotros = () => {
           <Card.Title>
             <h1>Dian Xue Mexico</h1>
             <h2>
-              Aplicacion de los puntos de presion para la Defensa Personal{" "}
+              Aplicacion de los puntos de presion para la Defensa Personal
             </h2>
           </Card.Title>
           <Card.Text>
